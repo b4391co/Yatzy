@@ -31,7 +31,7 @@ public class YatzyTest {
     }
 
     @Test
-    public void test_threes() {
+    public void threesTest() {
         assertEquals(6, Yatzy.threes(1,2,3,2,3));
         assertEquals(12, Yatzy.threes(2,3,3,3,3));
     }
